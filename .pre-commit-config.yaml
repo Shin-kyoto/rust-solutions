@@ -74,5 +74,4 @@ repos:
 #             "flake8-quotes",
 #           ]
 
-exclude: ".svg"
 exclude: target/|\.git/|.*\.snap
