@@ -19,5 +19,5 @@ fn main() {
     let ending = if omit_newline {""} else {"\n"};
     // println!("{:?}", std::env::args());
     // println!("{:#?}", _matches);
-    println!("{}{}", text.join(""), ending);
+    println!("{}{}", text.join(" "), ending);
 }
