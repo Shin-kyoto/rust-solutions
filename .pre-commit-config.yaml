@@ -74,4 +74,4 @@ repos:
 #             "flake8-quotes",
 #           ]
 
-exclude: target/|\.git/|.*\.snap
+exclude: target/|tests/expected/|\.git/|.*\.snap
