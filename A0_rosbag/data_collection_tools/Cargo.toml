@@ -1,0 +1,13 @@
+[package]
+name = "data_collection_tools"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rosbag2-rs = "0.2"  # rosbag2-rsの最新バージョンを指定
+chrono = "0.4"  # 日時操作のためのchronoライブラリ
+plotters = "0.3"  # グラフ描画用のplottersライブラリ
+serde_yaml = "0.9.34"
+
